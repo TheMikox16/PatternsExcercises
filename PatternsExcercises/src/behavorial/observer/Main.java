@@ -5,17 +5,46 @@
  */
 package behavorial.observer;
 
+import java.util.Date;
+
 /**
  *
- * @author Usuario
+ * @author Miguel Angel Egoavil Mathison
  */
 public class Main {
+    
+    public static void main(String[] args){
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+        FligthObservable f1 = new FligthObservable();
+        FligthObservable f2 = new FligthObservable();   
+        FligthObservable f3 = new FligthObservable();   
+        FligthObservable f4 = new FligthObservable();   
+    
+        f1.add(new Origin(f1));
+        f1.add(new AllFligths(f1));
+        
+        f2.add(new Destiny(f2));
+        f2.add(new AllFligths(f2));
+        
+        f3.add(new Origin(f3));
+        f3.add(new AllFligths(f3));
+        
+        f4.add(new Destiny(f4));
+        f4.add(new AllFligths(f4));
+        
+        f1.setAll("198310", false, "Gaviota Airlines", 10, "05:12");
+        f2.setAll("23495", true, "Lopex Airlines", 12, "12:34");
+        f3.setAll("134583", false, "Cigueña Airlines", 5, "13:52");
+        f4.setAll("1340543", true, "Copa Airlines", 6, "18:47");
+        
+        System.out.println("Pantalla de vuelos:");
+        f1.print(f1, f2, f3, f4);
+        
+        System.out.println("Pantalla de vuelos de destino:");
+        f1.printDestinies(f1, f2, f3, f4);
+        System.out.println("Pantalla de vuelos de origen:");
+        f1.printOrigins(f1, f2, f3, f4);
+        
     }
     
 }
