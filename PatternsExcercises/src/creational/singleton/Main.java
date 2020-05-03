@@ -14,8 +14,8 @@ public class Main {
     public static void main(String[] args){
         
         QueueSingleton queue = QueueSingleton.getQueue();
-        
         queue.enqueue("Hola");
+        System.out.println("Scando elementos de la cola:");        
         System.out.println(queue.dequeue());
         System.out.println(queue.isEmpty());
         queue.enqueue(2);
