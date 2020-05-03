@@ -9,15 +9,15 @@ package structural.decorator;
  *
  * @author Usuario
  */
-public abstract class ComputadoraDecorator implements Vendible {
+public abstract class ComputerDecorator implements Sellable {
 
-    private final Vendible vendible;
+    private final Sellable sellable;
 
-    public ComputadoraDecorator(Vendible vendible) {
-        this.vendible = vendible;
+    public ComputerDecorator(Sellable sellable) {
+        this.sellable = sellable;
     }
 
-    public Vendible getVendible() {
-        return vendible;
+    public Sellable getSellable() {
+        return sellable;
     }
 }

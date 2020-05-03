@@ -9,9 +9,9 @@ package structural.decorator;
  *
  * @author Usuario
  */
-public interface Vendible {
+public interface Sellable {
 
-    public String getDescripcion();
+    public String getDescription();
 
-    public double getPrecio();
+    public double getPrice();
 }

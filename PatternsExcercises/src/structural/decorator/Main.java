@@ -13,14 +13,14 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Vendible computadora1 = new Computadora(100000, "Dell");
-        computadora1 = new BlueRay(computadora1);
-        computadora1 = new CamaraWeb(computadora1);
-        System.out.println("Computadora" + computadora1.getDescripcion() + "\n Precio:" + computadora1.getPrecio());
+        Sellable computer1 = new Computer(100000, "Dell");
+        computer1 = new BluRay(computer1);
+        computer1 = new WebCam(computer1);
+        System.out.println("Computadora" + computer1.getDescription() + "\n Precio:" + computer1.getPrice());
        
-        Vendible computadora2 = new Computadora(80000, "HP");
-        computadora2 = new LectorHuellaDigital(computadora2);
-        computadora2 = new LectorTarjetasSD(computadora2);
-        System.out.println("Computadora" + computadora2.getDescripcion() + "\n Precio:" + computadora2.getPrecio());
+        Sellable computer2 = new Computer(80000, "HP");
+        computer2 = new DigitalFingerprintReader(computer2);
+        computer2 = new SDCardReader(computer2);
+        System.out.println("Computadora" + computer2.getDescription() + "\n Precio:" + computer2.getPrice());
     }
 }
