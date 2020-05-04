@@ -11,7 +11,12 @@ import java.util.List;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Course que contiene los datos de un curso. 
+ * Extiende a clonable para poder realizar clonaciones
+ * profundas, compliendo con el Prototype
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Course implements Cloneable{
     
@@ -80,7 +85,15 @@ public class Course implements Cloneable{
     
     @Override
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        List<Student> temp = new LinkedList<>();
+        Iterator iterator = this.list.iterator();
+        while(iterator.hasNext()){
+            Student temp2 = (Student) iterator.next();
+            temp.add((Student) temp2.clone());
+        }
+        Course temp3 = new Course(this.name, this.initial, this.credits, (Teacher) this.teacher.clone());
+        temp3.setList(temp);
+        return temp3;
     }
     
     public void add(Student student){

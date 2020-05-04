@@ -10,7 +10,13 @@ import java.util.Date;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Interfaz AbstractBuilder que se encarga de asegurar que constructor(builder)
+ * de un determinado objeto implemente dichos metodos y para asegurarse de que
+ * los mismos esten implementados al manejar el mismo por medio de una variable 
+ * que lo instancie en el main.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public interface AbstractBuilder {
     

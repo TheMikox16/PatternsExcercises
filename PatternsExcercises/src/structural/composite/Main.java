@@ -7,7 +7,15 @@ package structural.composite;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Main que se encarga de hacer las pruebas y llamadas
+ * El patron Composite permite manejar niveles jerarquicos de una instancia
+ * de forma eficiente. Esto quiere decir que se puede manejar un objeto o 
+ * instancia y las subinstancias del mismo tipo que el mismo pueda contener,
+ * todo esto sin la necesidad de hacer varias llamadas, simplemente se reutilizan
+ * metodos para lograr esto.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Main {
     

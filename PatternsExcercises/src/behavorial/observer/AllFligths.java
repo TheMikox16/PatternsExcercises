@@ -10,7 +10,13 @@ import java.util.Iterator;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase AllFligth que se encarga de administrar todos los vuelos sin importar
+ * su tipo y de actualizar a los mismos segun sea el caso. Esto aporta al patron
+ * su funcion escencial que es hacer cambios en las diferentes listas al efectuar
+ * algun tipo de cambio en un aspecto especifico.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class AllFligths extends Observer{
     

@@ -10,7 +10,13 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Scheduler que hace todos los llamados para counstruir cada parametro
+ * de un Proyecto(Project). Esto hace mas estructurado el codigo ya que se
+ * evita sobrecargar el main. En el Patron Builder, se encarga de gestionar
+ * las llamadas a los constructores de atributos (builders).
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Scheduler {
     

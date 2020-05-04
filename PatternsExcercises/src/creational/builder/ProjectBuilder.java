@@ -10,7 +10,13 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase ProjectBuilder que identifica cada atributo a asignar al nuevo objeto.
+ * Esto permite que gestione o se validen los datos que se quieran ingresar
+ * y en el caso de ser erroneos evita la creacion de un nuevo objeto mediante
+ * un ProjectException. Extiende al AbstractBuilder.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class ProjectBuilder implements AbstractBuilder{
 

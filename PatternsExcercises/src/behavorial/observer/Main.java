@@ -9,7 +9,13 @@ import java.util.Date;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Main que realiza las pruebas y llamdos
+ * El patron Observer permite actualizar diferentes instancias de forma eficiente
+ * y de manera automatica al hacerle un cambio a la misma, lo que permite mover
+ * facilmente un dato de un apartado a otro y mejorando el despliegue del mismo.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Main {
     

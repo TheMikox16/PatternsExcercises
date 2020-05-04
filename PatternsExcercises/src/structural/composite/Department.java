@@ -10,7 +10,14 @@ import java.util.Iterator;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Department que contiene una lista de AbstractSub los cuales podrian
+ * ser otros Department (por su implementacion a AbstractSub). Aqui es donde
+ * el patron se empieza a notar ya que se pueden crear mas subinstancias de una
+ * determinada instancia. Ademas, esta clase se encarga de las gestion de dichas
+ * subclases.
+ *  
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Department implements AbstractSub{
     

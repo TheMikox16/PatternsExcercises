@@ -7,7 +7,11 @@ package creational.factory_method;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase StructureException que permite desplegar un error personalizado
+ * en caso de que la instancia solicitada no pueda ser creada
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class StructureException extends Exception {
 

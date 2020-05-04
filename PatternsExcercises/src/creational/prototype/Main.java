@@ -8,7 +8,15 @@ package creational.prototype;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Main que prueba el patron Prototype.
+ * 
+ * Este patron permite que se puedan crear una instancia
+ * igual a otra (clon, no el mismo) lo que permite manejar
+ * de forma eficiente una copia de un objeto y modificarla
+ * para no tener que crear la misma desde 0.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Main {
     
@@ -27,15 +35,21 @@ public class Main {
 
             list.add(course1);
 
+            System.out.println("Original:\n");
             System.out.println("Lista:\n" + list.print());
 
 
             CourseList list2 = (CourseList) list.clone();
+            
+            System.out.println("DESPUES DE COPIA:\n\nLista 1 :\n" + list.print());
+            System.out.println("Lista 2 (COPIA DE 1):\n" + list2.print());
+            
             Course course2 = (Course) list.search(0).clone();
         
             course2.setName("Algoritmos y estructura de datos");
             
-            System.out.println("Comparación punteros, ¿iguales?: " + (list == list2));
+            System.out.println("Comparación punteros, ¿iguales?: " + (list == list2)
+            + "\nHashCode lista 1: " + list.hash() + "  Lista 2: " + list2.hash() + "\n");
             
             Student student1 = (Student) list.search(0).search(0).clone();
             
@@ -44,11 +58,12 @@ public class Main {
             student1.setFullName("Sean Campos Siles");
             
             course2.add(student1);
+            course2.getTeacher().setFullName("Alberto Ramírez Molina");
             
             list2.add(course2);
             
-            System.out.println("Lista 1:\n" + list.print());
-            System.out.println("Lista 2:\n" + list2.print());
+            System.out.println("Lista 1 EDITADA:\n" + list.print());
+            System.out.println("Lista 2 (COPIA EDITADA DE 1):\n" + list2.print());
             
         }catch(CloneNotSupportedException ex){
             System.out.println(ex.getCause());

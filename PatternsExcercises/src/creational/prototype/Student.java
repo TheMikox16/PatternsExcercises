@@ -7,7 +7,12 @@ package creational.prototype;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Student que contiene todos los datos de un estudiante.
+ * Extiende a clonable para poder realizar clonaciones
+ * profundas, compliendo con el Prototype.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Student implements Cloneable{
     
@@ -65,7 +70,7 @@ public class Student implements Cloneable{
     }
     
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return new Student(this.id, this.collegeId, this.fullName, this.scolarship);
     }
     
 }

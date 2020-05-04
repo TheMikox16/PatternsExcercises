@@ -12,9 +12,15 @@ import java.util.Iterator;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase FligthObservable que contiene todos los datos de un vuelo ademas de 
+ * gestionar todos los observadores (que funcionaran como pantalla) de un 
+ * determinado vuelo. El patron es evidente cuando al crear un nuevo vuelo o
+ * este se modifica e les notifica a un numero de observadores dicho cambio.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
-public class FligthObservable {
+public class FligthObservable implements Observable{
     
     private ArrayList<Observer> observers = new ArrayList<>();
     private String number;
@@ -67,10 +73,12 @@ public class FligthObservable {
         this.hour = hour;
     }
     
+    @Override
     public void add(Observer observer){
         observers.add(observer);
     }
     
+    @Override
     public void notifyAllObservers(){
         for(int i = 0; i < observers.size(); i++){
             Observer observer = (Observer) observers.get(i);
@@ -78,6 +86,7 @@ public class FligthObservable {
         }
     }
    
+    @Override
     public void delete(Observer observer){
         observers.remove(observer);
     }

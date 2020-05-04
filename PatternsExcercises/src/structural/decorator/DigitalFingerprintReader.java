@@ -7,7 +7,8 @@ package structural.decorator;
 
 /**
  *
- * @author Usuario
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class DigitalFingerprintReader extends ComputerDecorator{
 

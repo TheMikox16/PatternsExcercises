@@ -7,7 +7,10 @@ package structural.composite;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Empleado que contiene todos los datos de un empleado.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Employee implements AbstractSub{
     

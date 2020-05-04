@@ -13,7 +13,10 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Project que contiene todos los datos de un proyecto.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Project {
     

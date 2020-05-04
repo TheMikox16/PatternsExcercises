@@ -7,7 +7,10 @@ package creational.builder;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Employee con todos los datos de un empleado, incluyendo el encargado
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Employee {
     

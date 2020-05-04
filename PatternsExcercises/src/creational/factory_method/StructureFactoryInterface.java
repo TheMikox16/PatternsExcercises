@@ -9,7 +9,12 @@ import java.util.Collection;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Interfaz StructureFactoryInterface que se encarga de que caulquier nuevo 
+ * fabricante cumpla con las condiciones (metodos) que posea y con ello evitar 
+ * metodos o implementaciones erroneas.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public interface StructureFactoryInterface {
     

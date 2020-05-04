@@ -10,7 +10,14 @@ import java.util.Queue;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * ClaseQueueSingleton que implementa el Patron Singleton.
+ * El proposito de este patron es regular las instancias
+ * que se puedan generar del mismo y controlarlas
+ * mediante metodos eficientes que permitan el manejo
+ * de la misma
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  * @param <T>
  */
 public class QueueSingleton<T> {

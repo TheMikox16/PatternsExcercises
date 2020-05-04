@@ -11,7 +11,13 @@ import java.util.Queue;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Queu (llamada asi para evitar problemas con colecciones) que es una
+ * de las 3 instancias posibles para el manejo de datos, en este caso 
+ * tratandose de una cola. Permite demostrar el diferente funcionamiento de
+ * cada instancia.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Queu<T> extends Structure{
     

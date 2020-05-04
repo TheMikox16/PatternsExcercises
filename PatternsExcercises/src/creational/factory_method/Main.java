@@ -7,13 +7,19 @@ package creational.factory_method;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Main que ejecuta los llamados y pruebas.
+ * El patron Factory Method permite crear instancias de diferentes tipos (es
+ * decir, pudiendo ser un objeto diferente que se maneje diferente) segun los
+ * datos que brindemos o necesitamos.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Main {
     
     public static void main(String[] args){
         
-        StructureFactory factory = new StructureFactory();
+        StructureFactoryInterface factory = new StructureFactory();
         try{
             Structure stack = factory.createStructure(0);
             Structure queue = factory.createStructure(1);

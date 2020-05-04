@@ -7,7 +7,13 @@ package creational.builder;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase ProjectException que permite tirar una excepcion personalizada
+ * cuando se introduzca un dato erroneo al querer crear un Project.
+ * Importante para interrumpir el proceso de creacion de un objeto y evitar
+ * uso de memoria inecesario.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 class ProjectException extends Exception {
 

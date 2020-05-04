@@ -6,8 +6,12 @@
 package creational.prototype;
 
 /**
- *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Teacher que contiene los datos de el profesor
+ * Extiende a clonable para poder realizar clonaciones
+ * profundas, compliendo con el Prototype
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Teacher implements Cloneable{
     
@@ -55,7 +59,7 @@ public class Teacher implements Cloneable{
     
     @Override
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        return new Teacher(this.id, this.fullName, this.degree);
     }
     
 }

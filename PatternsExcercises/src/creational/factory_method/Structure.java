@@ -9,7 +9,13 @@ import java.util.Collection;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Abstracta Structure que es la calse padre de las 3 instancias posibles:
+ * TreSet, Stck y Queu. La misma permite que cada instancia maneje los respectivos
+ * metodos que corresponden (add, delete, print) ademas de que se encarga de manejar
+ * las instancias como colecciones, evitando errores a la hora de asignarlos.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public abstract class Structure<T> {
     

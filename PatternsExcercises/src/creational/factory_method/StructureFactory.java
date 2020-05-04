@@ -13,7 +13,12 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase StructureFactory que se encarga de detrminar la instancia que requiere
+ * o solicita el program. Ayuda con el Patron ya que a partir de esta clase
+ * se puede decidir que instancia se va a usar.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class StructureFactory implements StructureFactoryInterface{
     

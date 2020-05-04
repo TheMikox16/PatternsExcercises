@@ -7,7 +7,11 @@ package creational.singleton;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Main que prueba el patron Singleton
+ * mediante diversos llamados y datos creados.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Main {
     

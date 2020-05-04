@@ -11,7 +11,8 @@ import java.util.TreeSet;
 
 /**
  *
- * @author Usuario
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class SortDescendingSalary implements SortingInterface{
 

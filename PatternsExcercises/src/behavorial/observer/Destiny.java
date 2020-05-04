@@ -9,7 +9,14 @@ import java.util.Date;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Destiny que se encarga de administrar todos los vuelos destino
+ * y de actualizar a los mismos segun sea el caso, cambiandolos a Origin 
+ * (origen). Esto aporta al patron su funcion escencial que es hacer cambios 
+ * en las diferentes listas al efectuar algun tipo de cambio en un aspecto 
+ * especifico.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Destiny extends Observer{
 

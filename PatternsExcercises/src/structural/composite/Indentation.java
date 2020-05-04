@@ -7,7 +7,12 @@ package structural.composite;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase Identation que tiene un proposito de acomodar las divisiones de manera 
+ * que se puedan distinguir una division de otra sin dificultades. Este es una
+ * clase opcional ya que su proposito es acomodar la salida de datos.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class Indentation {
 

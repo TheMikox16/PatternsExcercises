@@ -1,4 +1,4 @@
-/*
+ /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -11,7 +11,12 @@ import java.util.List;
 
 /**
  *
- * @author Miguel Angel Egoavil Mathison
+ * Clase CourseList que sirve como gestor de la lista de curso.
+ * Es la primera clase que hace clone() y que realiza llamados
+ * a otros, permitiendo realizar copias profundas.
+ * 
+ * @author Miguel Angel Egoavil Mathison Carne: B92695
+ * @author Jose Pablo Vásquez Araya Carne: B98315
  */
 public class CourseList implements Cloneable{
     
@@ -51,7 +56,13 @@ public class CourseList implements Cloneable{
     
     @Override
     public Object clone() throws CloneNotSupportedException{
-        return super.clone();
+        CourseList temp = new CourseList();
+        Iterator iterator = this.list.iterator();
+        while(iterator.hasNext()){
+            Course course = (Course) iterator.next();
+            temp.add((Course) course.clone());
+        }
+        return temp;
     }
     
 }
