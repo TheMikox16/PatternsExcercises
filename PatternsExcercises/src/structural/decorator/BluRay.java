@@ -6,6 +6,10 @@
 package structural.decorator;
 
 /**
+ * Esta clase extiende de el decorador y obtiene las caracteristicas de la
+ * interfaz sellable, esto permite crear clases extra para mejorar o aumentar
+ * las cualidades del objeto en este caso computadora sin modificar su
+ * estructura, en este caso se le agrega a la venta un BlueRay.
  *
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315

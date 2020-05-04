@@ -6,7 +6,9 @@
 package structural.decorator;
 
 /**
- *
+ *Interfaz sellable que se necesita para que el objeto reciba los metodos que se necesitan, tambien 
+ * se utiliza para agregar mas objetos si es necesario mediante la decoracion, sin modificar el código base.
+ * 
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */

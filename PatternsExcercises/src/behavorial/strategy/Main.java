@@ -10,6 +10,10 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
+ * Clase Main que se encarga de hacer las pruebas y llamadas
+ * patrón estrategia permite mantener un conjunto de algoritmos de los cuales se puede elegir
+ * aquel que le conviene utilizar según sus necesidades.
+ * Esta clase main se comunica con la clase SortWorker enviandole el ordenamiento de tipo Sorting Interface.
  *
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
@@ -26,12 +30,12 @@ public class Main {
         sw.add(new Worker("Luis", "Antonio", "Solis", "Guevara", "2", 293392));
         sw.add(new Worker("Michael", "Jackson", "Avila", "Garza", "5", 239829));
         sw.add(new Worker("Juan", "Carlos", "Ulate", "Arce", "4", 12093));
-        
+
         System.out.println("Lista por nombres:\n" + sw.sortList());
         sw.setSorter(new SortAscendingID());
         System.out.println("Lista por identificacion:\n" + sw.sortList());
         sw.setSorter(new SortDescendingSalary());
         System.out.println("Lista por salario descendiente:\n" + sw.sortList());
     }
-    
+
 }

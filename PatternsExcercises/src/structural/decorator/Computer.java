@@ -6,7 +6,9 @@
 package structural.decorator;
 
 /**
- *
+ *Esta clase implementa seller para obtener sus metodos, ya que se necesita hacer la venta, esta clase tiene los atributos 
+ * de Computadora, que es el objeto original que se quiere vender. 
+ * 
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */

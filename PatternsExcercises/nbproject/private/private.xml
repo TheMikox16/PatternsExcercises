@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/SortingInterface.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/Worker.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/SortWorker.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/Main.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/SortAscendingLastName.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/SortAscendingID.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/Git/PatternsExcercises/PatternsExcercises/src/behavorial/strategy/SortDescendingSalary.java</file>
+        </group>
     </open-files>
 </project-private>

@@ -6,11 +6,15 @@
 package structural.decorator;
 
 /**
+ * Esta clase extiende de el decorador y obtiene las caracteristicas de la
+ * interfaz sellable, esto permite crear clases extra para mejorar o aumentar
+ * las cualidades del objeto en este caso computadora sin modificar su
+ * estructura, en este caso se le agrega a la venta una Web Cam.
  *
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */
-public class WebCam extends ComputerDecorator{
+public class WebCam extends ComputerDecorator {
 
     private final double price = 25000;
     private final String description = "Cámara web";
@@ -18,9 +22,7 @@ public class WebCam extends ComputerDecorator{
     public WebCam(Sellable sellable) {
         super(sellable);
     }
-    
-    
-    
+
     @Override
     public String getDescription() {
         return (getSellable().getDescription() + " , " + description);
@@ -30,5 +32,5 @@ public class WebCam extends ComputerDecorator{
     public double getPrice() {
         return (getSellable().getPrice() + price);
     }
-    
+
 }

@@ -6,6 +6,9 @@
 package structural.decorator;
 
 /**
+ * Clase Main que realiza las pruebas y llamdos El pátrón Strategy, ayuda a
+ * aumentar las capacidades de los objetos o aumentar caracteristicas sin
+ * modificar el código base.
  *
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
@@ -13,12 +16,12 @@ package structural.decorator;
 public class Main {
 
     public static void main(String[] args) {
-        
+
         Sellable computer1 = new Computer(100000, "Dell");
         computer1 = new BluRay(computer1);
         computer1 = new WebCam(computer1);
         System.out.println("Computadora" + computer1.getDescription() + "\n Precio:" + computer1.getPrice());
-       
+
         Sellable computer2 = new Computer(80000, "HP");
         computer2 = new DigitalFingerprintReader(computer2);
         computer2 = new SDCardReader(computer2);

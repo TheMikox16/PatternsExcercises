@@ -6,7 +6,8 @@
 package behavorial.strategy;
 
 /**
- *
+ *Clase que crea un objeto trabajador, con sus atributos y sus respectivos set y get, para despues ser 
+ * llamado mediante variables de instancia al main para ser utilizado
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */

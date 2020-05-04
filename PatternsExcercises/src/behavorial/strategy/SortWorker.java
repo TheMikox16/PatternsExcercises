@@ -8,7 +8,12 @@ package behavorial.strategy;
 import java.util.TreeSet;
 
 /**
- *
+ *Esta clase recibe el tipo de ordenamiento de tipo SortingInterface que se desea realizar mediante el setSorter, lo iguala a una variable
+ *  de de este mismo tipo SortingInterface y lo realiza cuando se le solicita ordenarlo, en este caso
+ * con el metodo sortList, esto permite que con la variable se realice el algoritmo
+ * que se desea.
+ * 
+ * 
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */

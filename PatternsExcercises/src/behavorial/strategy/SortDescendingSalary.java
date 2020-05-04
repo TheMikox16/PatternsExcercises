@@ -10,7 +10,10 @@ import java.util.Iterator;
 import java.util.TreeSet;
 
 /**
- *
+ * clase que es un algoritmo que implementa la clase SortingIntrerface, implementa el metodo y se le hacen las variaciones
+ * necesarias para que el metodo cumpla su funcion, en este caso el algoritmo cumple la funcion de ordenar los trabajadores
+ * porSalario de forma descendente. 
+ * 
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */

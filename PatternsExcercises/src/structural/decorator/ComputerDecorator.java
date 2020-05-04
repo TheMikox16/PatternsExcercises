@@ -6,7 +6,10 @@
 package structural.decorator;
 
 /**
- *
+ *Clase Abstracta cuyo objetivo es implementar la interfaz sellable y necesita un constructor que reciva 
+ * reciba cualquier immplementacion del tipo de la interfaz, esta se iguala a la variable final de esta clase abstracta,
+ * para asi extender clases para aumentar las necesidades del código sin tener que modificar el código base
+ * 
  * @author Miguel Angel Egoavil Mathison Carne: B92695
  * @author Jose Pablo Vásquez Araya Carne: B98315
  */
